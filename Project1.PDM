@@ -1,0 +1,551 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|SqlServerViewer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\John\Desktop\Full Installs\Package
+
+[Package|SqlServerViewer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SqlServerViewer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SqlServerViewer|Files Found]
+
+[Package|SqlServerViewer|Files Released]
+
+[Package|SqlServerViewer|Missing Dependency Information]
+
+[Package|SqlServerViewer|Out-of-Date Dependency Information]
+
+[Package|SqlServerViewer|Files Added]
+
+[Package|SqlServerViewer|Files Removed]
+
+[Package|SqlServerViewer|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\John\Desktop\New Folder\SQLServerViewer.exe=Yes
+
+[Package|SqlServerViewer|Configure Registry Files]
+Applicable=No
+
+[Package|SqlServerViewer|Configure Remote Servers]
+Applicable=No
+
+[Package|SqlServerViewer|Install Locations]
+C:\Documents and Settings\John\Desktop\Full Installs\SQLServerViewer.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\John\Desktop\New Folder\SQLServerViewer.exe=$(AppPath)
+
+[Package|SqlServerViewer|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\John\Desktop\Full Installs\SQLServerViewer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\John\Desktop\New Folder\SQLServerViewer.exe=No
+
+[Package|SqlServerViewer|Distribution]
+Type=single
+Size=
+Title=SqlServerViewer
+
+[Package|SqlServerViewer|IconGroups]
+Group0=SqlServerViewer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SqlServerViewer|SqlServerViewer]
+Icon1=SQLServerViewer.exe
+Title1=SqlServerViewer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SqlServerViewer|Package]
+PackageFolder=C:\Documents and Settings\John\Desktop\Full Installs\Package
+ProjectFolder=C:\Documents and Settings\John\Desktop\New Folder
+ServerSideCab=
+File1=C:\Documents and Settings\John\Desktop\Full Installs\Package\setup.exe
+File2=C:\Documents and Settings\John\Desktop\Full Installs\Package\Setup.Lst
+File3=C:\Documents and Settings\John\Desktop\Full Installs\Package\SQLServerViewer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\John\Desktop\New Folder
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Documents and Settings\John\Desktop\New Folder\SQLServerViewer.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Documents and Settings\John\Desktop\New Folder\SQLServerViewer.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=SQLServerViewer.CAB
+DepCabRun=SQLServerViewer.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Documents and Settings\John\Desktop\New Folder
+ProjectFolder=C:\Documents and Settings\John\Desktop\New Folder
+ServerSideCab=
+File1=C:\Documents and Settings\John\Desktop\New Folder\SQLServerViewer.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SQL Server Viewer|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package
+
+[Package|SQL Server Viewer|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SQL Server Viewer|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SQL Server Viewer|Files Found]
+
+[Package|SQL Server Viewer|Files Released]
+
+[Package|SQL Server Viewer|Missing Dependency Information]
+
+[Package|SQL Server Viewer|Out-of-Date Dependency Information]
+
+[Package|SQL Server Viewer|Files Added]
+
+[Package|SQL Server Viewer|Files Removed]
+
+[Package|SQL Server Viewer|Files In Project]
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=Yes
+C:\WINNT\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\Comctl32.ocx=Yes
+C:\WINNT\SYSTEM32\msdatgrd.ocx=Yes
+C:\WINNT\SYSTEM32\msstdfmt.dll=Yes
+C:\WINNT\SYSTEM32\tabctl32.ocx=Yes
+C:\WINNT\SYSTEM32\Comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SQL Server Viewer|Configure Registry Files]
+Applicable=No
+
+[Package|SQL Server Viewer|Configure Remote Servers]
+Applicable=No
+
+[Package|SQL Server Viewer|Install Locations]
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=$(AppPath)
+C:\WINNT\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\Comctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msdatgrd.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msstdfmt.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SQL Server Viewer|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|SQL Server Viewer|Distribution]
+Type=single
+Size=1.44 MB
+Title=SQL Server Viewer
+
+[Package|SQL Server Viewer|IconGroups]
+Group0=SQL Server Viewer
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SQL Server Viewer|SQL Server Viewer]
+Icon1=SQLServerViewer.exe
+Title1=SQL Server Viewer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SQL Server Viewer|Package]
+PackageFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package
+ProjectFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder
+ServerSideCab=
+File1=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\setup.exe
+File2=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\Setup.Lst
+File3=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\SQLServerViewer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder
+
+[Package|dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|dep|Files Found]
+
+[Package|dep|Files Released]
+
+[Package|dep|Missing Dependency Information]
+
+[Package|dep|Out-of-Date Dependency Information]
+
+[Package|dep|Files Added]
+
+[Package|dep|Files Removed]
+
+[Package|dep|Files In Project]
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=Yes
+C:\WINNT\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ADO\msado15.dll=Yes
+C:\WINNT\SYSTEM32\Comctl32.ocx=Yes
+C:\WINNT\SYSTEM32\msdatgrd.ocx=Yes
+C:\WINNT\SYSTEM32\msstdfmt.dll=Yes
+C:\WINNT\SYSTEM32\tabctl32.ocx=Yes
+C:\WINNT\SYSTEM32\Comdlg32.ocx=Yes
+
+[Package|dep|Configure Registry Files]
+Applicable=
+
+[Package|dep|Configure Remote Servers]
+Applicable=
+
+[Package|dep|Install Locations]
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=$(AppPath)
+C:\WINNT\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ADO\msado15.dll=$(CommonFilesSys)\ADO
+C:\WINNT\SYSTEM32\Comctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msdatgrd.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msstdfmt.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\Comdlg32.ocx=$(WinSysPath)
+
+[Package|dep|Configure Shared Files]
+Applicable=
+
+[Package|dep|DepFile]
+DepCabFile=SQLServerViewer.CAB
+DepCabRun=SQLServerViewer.INF
+
+[Package|dep|Package]
+PackageFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder
+ProjectFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder
+ServerSideCab=
+File1=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 2|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package
+
+[Package|Dep File 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 2|Files Found]
+
+[Package|Dep File 2|Files Released]
+
+[Package|Dep File 2|Missing Dependency Information]
+
+[Package|Dep File 2|Out-of-Date Dependency Information]
+
+[Package|Dep File 2|Files Added]
+
+[Package|Dep File 2|Files Removed]
+
+[Package|Dep File 2|Files In Project]
+C:\WINNT\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\Comctl32.ocx=Yes
+C:\WINNT\SYSTEM32\msdatgrd.ocx=Yes
+C:\WINNT\SYSTEM32\msstdfmt.dll=Yes
+C:\WINNT\SYSTEM32\tabctl32.ocx=Yes
+C:\WINNT\SYSTEM32\Comdlg32.ocx=Yes
+C:\Documents and Settings\joverton\Desktop\SQLServerViewer.exe=Yes
+C:\Program Files\Common Files\System\ADO\msado15.dll=Yes
+
+[Package|Dep File 2|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 2|Install Locations]
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=$(AppPath)
+C:\WINNT\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\Comctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msdatgrd.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msstdfmt.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\joverton\Desktop\SQLServerViewer.exe=$(AppPath)
+C:\Program Files\Common Files\System\ADO\msado15.dll=$(CommonFilesSys)\ADO
+
+[Package|Dep File 2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Dep File 2|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Dep File 2|IconGroups]
+Group0=Project1
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Dep File 2|Project1]
+Icon1=SQLServerViewer.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 2|DepFile]
+DepCabFile=SQLServerViewer.CAB
+DepCabRun=SQLServerViewer.INF
+
+[Package|Dep File 2|Package]
+PackageFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package
+ProjectFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder
+ServerSideCab=
+File1=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\SQLServerViewer.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINNT\SYSTEM32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\Comctl32.ocx=Yes
+C:\WINNT\SYSTEM32\msdatgrd.ocx=Yes
+C:\WINNT\SYSTEM32\msstdfmt.dll=Yes
+C:\WINNT\SYSTEM32\tabctl32.ocx=Yes
+C:\WINNT\SYSTEM32\Comdlg32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\joverton\Desktop\SQLServerViewer.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=$(AppPath)
+C:\WINNT\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\Comctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msdatgrd.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\msstdfmt.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\Comdlg32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\joverton\Desktop\SQLServerViewer.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\SQLServerViewer.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\joverton\Desktop\SQLServerViewer.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package
+ProjectFolder=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder
+ServerSideCab=
+File1=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\setup.exe
+File2=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\Setup.Lst
+File3=C:\Documents and Settings\joverton\My Documents\New Folder\New Folder\Package\SQLServerViewer.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1=SQLServerViewer.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
